@@ -1,0 +1,146 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+.text-light-gray {
+    color: #94a3b8 !important;
+}
+
+.bg-dark-base {
+    background-color: #0f172a;
+}
+
+.bg-darker {
+    background-color: #0b1120;
+}
+
+.tracking-wide {
+    letter-spacing: 1px;
+}
+
+.custom-navbar {
+    background-color: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.custom-navbar.scrolled {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #cbd5e1;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.hero-section {
+    padding: 120px 0 80px 0;
+    background: radial-gradient(circle at center top, #1e293b 0%, #0f172a 100%);
+}
+
+.custom-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.icon-box {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.form-check-input {
+    cursor: pointer;
+    background-color: #334155;
+    border-color: #475569;
+    height: 1.5em;
+    width: 3em;
+}
+
+.form-check-input:checked {
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+
+.diamond-card {
+    background: linear-gradient(145deg, #0284c7, #2563eb) !important;
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.diamond-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4) !important;
+}
+
+.pricing-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricing-list li {
+    color: #ffffff;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+    background-color: #0f172a;
+    border-color: #0dcaf0;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+.form-input::placeholder {
+    color: #64748b;
+}
+
+.chess-logo-icon {
+    font-size: 2.2rem;
+    line-height: 1;
+    background: linear-gradient(135deg, #dc2626 0%, #1e3a8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.chess-platinum-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23dcdcdc"><path d="M11 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm2 3a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM1.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0v-15a.5.5 0 0 1 .5-.5Zm13 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0v-15a.5.5 0 0 1 .5-.5ZM8 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H8Zm0-1h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2Z"/><path d="M7 5H3V3h4v2Zm0 6H3V9h4v2Zm0-3H3V6h4v2Zm3.5 0h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1Zm.5 1h-1a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1Z"/><path d="M11.5 9h-1a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1Z"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
